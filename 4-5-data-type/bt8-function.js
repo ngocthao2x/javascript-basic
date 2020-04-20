@@ -81,4 +81,5 @@ var pets= [
 for(i=0; i<3; i++) {
     console.log(pets[i].name, pets[i].age)
 }
-alert('hello my name is Ki');
+var b = 2 * 5;
+alert('b');
