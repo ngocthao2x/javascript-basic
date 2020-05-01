@@ -83,3 +83,17 @@ for(i=0; i<3; i++) {
 }
 var b = 2 * 5;
 alert('b');
+
+// Tính tổng giai thừa của một số nguyên 
+function factorials (numbers){
+    var factors = 1;
+     var sum = 0;
+       for (var i=1; i <= numbers; i++){
+        factors *= i;
+        sum += factors;
+     }
+   
+    return sum;
+   }
+factorials(5);
+   
